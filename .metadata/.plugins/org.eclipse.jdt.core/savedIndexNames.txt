@@ -1,4 +1,3 @@
 INDEX VERSION 1.131+C:\javaCamp\.metadata\.plugins\org.eclipse.jdt.core
 278804527.index
 1695662857.index
-3295470908.index
