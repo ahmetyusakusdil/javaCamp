@@ -3,4 +3,8 @@
     <fullyQualifiedTypeName name="oopIntro.Product"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
+    <fullyQualifiedTypeName name="oopIntro.Content"/>
+    <fullyQualifiedTypeName name="oopIntro.ContentManager"/>
+    <fullyQualifiedTypeName name="oopIntro.Course"/>
+    <fullyQualifiedTypeName name="oopIntro.CourseManager"/>
 </qualifiedTypeNameHistroy>
