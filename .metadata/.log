@@ -1648,3 +1648,31 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-05-01 18:30:33.041
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: C:\javaCamp\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\homeWork.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:392)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:856)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:878)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$1(RefactoringHistoryService.java:369)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2021-05-01 18:30:33.042
+!MESSAGE Could not move: C:\javaCamp\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\homeWork.
