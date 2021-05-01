@@ -16,4 +16,9 @@
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
     <fullyQualifiedTypeName name="inheritance2.FileLogger"/>
     <fullyQualifiedTypeName name="thirdDaySecondHomework.User"/>
+    <fullyQualifiedTypeName name="thirdDaySecondHomework.UserManager"/>
+    <fullyQualifiedTypeName name="thirdDaySecondHomework.Instructor"/>
+    <fullyQualifiedTypeName name="thirdDaySecondHomework.Student"/>
+    <fullyQualifiedTypeName name="thirdDaySecondHomework.InstructorManager"/>
+    <fullyQualifiedTypeName name="thirdDaySecondHomework.StudentManager"/>
 </qualifiedTypeNameHistroy>
