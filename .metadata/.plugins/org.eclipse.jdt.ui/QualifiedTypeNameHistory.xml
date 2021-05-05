@@ -21,4 +21,7 @@
     <fullyQualifiedTypeName name="thirdDaySecondHomework.Student"/>
     <fullyQualifiedTypeName name="thirdDaySecondHomework.InstructorManager"/>
     <fullyQualifiedTypeName name="thirdDaySecondHomework.StudentManager"/>
+    <fullyQualifiedTypeName name="GameCalculator"/>
+    <fullyQualifiedTypeName name="ManGameCalculator"/>
+    <fullyQualifiedTypeName name="WomanGameCalculator"/>
 </qualifiedTypeNameHistroy>
